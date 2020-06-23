@@ -40,4 +40,4 @@ async def main(event):
         await event.client(functions.photos.DeletePhotosRequest(await event.client.get_profile_photos("me", limit=1)))
         await event.client(functions.photos.UploadProfilePhotoRequest( file))
         os.system("rm -rf donottouch.jpg")
-        await asyncio.sleep(120) #Edit this to your required needs
+        await asyncio.sleep(800) #Edit this to your required needs
