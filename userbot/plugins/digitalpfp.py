@@ -43,7 +43,7 @@ async def main(event):
         await event.client(functions.photos.DeletePhotosRequest(await event.client.get_profile_photos("me", limit=1)))
         await event.client(functions.photos.UploadProfilePhotoRequest( file))
         os.remove(poto)
-        await asyncio.sleep(60)
+        await asyncio.sleep(1000)
         
 CMD_HELP.update({
     "digitalpfp":
