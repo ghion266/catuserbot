@@ -13,13 +13,13 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "cat"
 @command(outgoing=True, pattern="^.alive$")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-    await alive.edit("**MY BOT IS RUNNING SUCCESFULLY**\n\n"
+    await alive.edit("**Don't warry am alive**\n\n"
                      f"`☞Telethon version: {version.__version__}\n`"
                      f"`☞Python: {python_version()}\n`"
                      "`☞Bot was modified by:` GTS\n"
                      "`☞and created by :` Ghion\n"
                      "`☞Database Status: Databases functioning normally!\n\n`"
-                     "`☞Always with you, Ghion!\n`"
+                     "`☞Always with you, GhᎥᎾᏁ!\n`"
                      f"`☞My peru owner`: [{DEFAULTUSER}](https://t.me/Ghion_23)\n"
                      #"[GTS](https://t.me/Ghion_23)"
                     )
